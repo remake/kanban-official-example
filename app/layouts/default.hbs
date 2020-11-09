@@ -16,7 +16,21 @@
   <link rel="stylesheet" type="text/css" href="/assets/css/kanban.css">
 </head>
 <body>
+  <style>
+    .demo-notice {
+      padding: 8px 16px 11px;
+      font-weight: 500;
+      background-color: #1c7ed6;
+      color: #fff;
+      text-align: center;
+    }
+
+    .demo-notice a {
+      text-decoration: underline;
+    }
+  </style>
   <div class="container">
+    <div class="demo-notice">Try <a href="https://recipes.remaketheweb.com/" target="_blank">the Remake recipes</a> to learn how to build an app like this in 30 minutes!</div>
     <div class="nav">
       <a class="logo" href="{{#if currentUser}}/{{currentUser.details.username}}{{else}}/{{/if}}">
         <img class="logo__image" src="/assets/images/logo.svg">
