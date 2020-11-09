@@ -2,10 +2,10 @@
   <div class="front-page__preview-container">
     <img class="front-page__preview" src="/assets/images/kanban-screenshot.png">
   </div>
-  <h2 class="front-page__heading">Welcome to TaskFellow</h2>
+  <h2 class="front-page__heading">Welcome to TaskFellow, <div class="front-page__heading-note">an app implemented with <a href="https://remaketheweb.com/">Remake</a> in 30 minutes</div></h2>
   {{#if currentUser}}
     <a class="button button--large" href="/{{currentUser.details.username}}">Go to your board</a>
   {{else}}
-    <a class="button button--large" href="/user/signup">Sign up!</a>
+    <a class="button button--front-page" href="/user/signup">Instant Sign Up</a>
   {{/if}}
 </div>

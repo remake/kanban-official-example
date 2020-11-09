@@ -18,6 +18,14 @@
   width: 100%;
 }
 .front-page__heading {
-  font-size: 28px;
+  max-width: 500px;
   margin-bottom: 1.5rem;
+  font-size: 28px;
+}
+.front-page__heading-note {
+  color: #868e96;
+}
+.front-page__heading-note a {
+  text-decoration: underline;
+  font-style: italic;
 }
