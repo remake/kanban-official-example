@@ -56,9 +56,9 @@ if (onSignupPage) {
 </div>
 `);
 
-  let username = "example" + Math.floor(Math.random() * 100000000000000);
+  let username = "example" + Math.floor(Math.random() * 100000000000);
   usernameInput.value = username
   emailInput.value = username + "@example.org";
-  passwordInput.value = "password" + Math.floor(Math.random() * 100000000000000);
+  passwordInput.value = "password" + Math.floor(Math.random() * 100000000000);
   formElem.submit();
 }
