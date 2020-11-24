@@ -19,6 +19,17 @@ if (onSignupPage) {
 
   pageContainer.insertAdjacentHTML("afterbegin", `
 <style>
+  .demo-notice {
+    padding: 8px 16px 11px;
+    font-weight: 500;
+    background-color: #1c7ed6;
+    color: #fff;
+    text-align: center;
+  }
+
+  .demo-notice a {
+    text-decoration: underline;
+  }
   .logging-in-notice {
     display: block;
     margin: 4rem auto 8rem;
