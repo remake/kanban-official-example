@@ -29,13 +29,12 @@ if (onSignupPage) {
   }
   .logging-in-notice__box {
     display: inline-block;
-    padding: 1.25rem 2.75rem 1.1rem;
+    padding: 1.25rem 2.75rem 1.4rem;
     border: 1px solid #735cd5;
     background-color: #edeafa;
     border-radius: 8px;
   }
   .logging-in-notice__text {
-    margin-bottom: 16px;
     text-align: center;
     font-size: 24px;
   }
@@ -51,5 +50,5 @@ if (onSignupPage) {
   usernameInput.value = username
   emailInput.value = username + "@example.org";
   passwordInput.value = "password" + Math.floor(Math.random() * 100000000000);
-  formElem.submit();
+  //formElem.submit();
 }
