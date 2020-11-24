@@ -50,5 +50,5 @@ if (onSignupPage) {
   usernameInput.value = username
   emailInput.value = username + "@example.org";
   passwordInput.value = "password" + Math.floor(Math.random() * 100000000000);
-  //formElem.submit();
+  formElem.submit();
 }
