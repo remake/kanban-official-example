@@ -1,7 +1,21 @@
 // YOUR CODE GOES HERE: 
 let containerElem = document.querySelector(".container");
 if (containerElem) {
-  containerElem.insertAdjacentHTML("afterbegin", `<div class="demo-notice">Learn from <a href="https://recipes.remaketheweb.com/" target="_blank">Remake's recipes</a> about how to implement an app like this in 30 minutes!</div>`);
+  containerElem.insertAdjacentHTML("afterbegin", `
+<style>
+  .demo-notice {
+    padding: 8px 16px 11px;
+    font-weight: 500;
+    background-color: #1c7ed6;
+    color: #fff;
+    text-align: center;
+  }
+
+  .demo-notice a {
+    text-decoration: underline;
+  }
+</style>
+<div class="demo-notice">Learn from <a href="https://recipes.remaketheweb.com/" target="_blank">Remake's recipes</a> about how to implement an app like this in 30 minutes!</div>`);
 }
 
 let frontPageButton = document.querySelector(".button--front-page");
@@ -19,17 +33,6 @@ if (onSignupPage) {
 
   pageContainer.insertAdjacentHTML("afterbegin", `
 <style>
-  .demo-notice {
-    padding: 8px 16px 11px;
-    font-weight: 500;
-    background-color: #1c7ed6;
-    color: #fff;
-    text-align: center;
-  }
-
-  .demo-notice a {
-    text-decoration: underline;
-  }
   .logging-in-notice {
     display: block;
     margin: 4rem auto 8rem;
