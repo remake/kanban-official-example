@@ -1,8 +1,6 @@
 <div class="accounts">
   <form class="accounts__form" action="/user/signup" method="post">
     <div class="accounts__heading">Sign up</div>
-    <div style="margin-bottom: 2rem; padding: 10px 16px 14px; background-color: #5f3dc4; color: #fff; font-weight: bold; border-radius: 5px;">Instantly sign in with the demo account below to test out the Remake Kanban app!</div>
-    <div style="margin: 2rem 0 2rem; color: #5f3dc4; font-weight: 500; border-radius: 5px; font-style: italic;">User accounts are built in to Remake!</div>
     <div class="text-field">
       <label class="text-field__label">
         <span class="text-field__label-text">Username</span>
@@ -23,15 +21,4 @@
     </div>
     <button class="button button--large button--account" type="submit">Sign up</button>
   </form>
-  <script>
-    let formElem = document.querySelector("form");
-    let usernameInput = document.querySelector("input[name='username']");
-    let emailInput = document.querySelector("input[name='email']");
-    let passwordInput = document.querySelector("input[name='password']");
-
-    usernameInput.value = "example" + Math.floor(Math.random() * 1000000);
-    emailInput.value = "example" + Math.floor(Math.random() * 1000000) + "@example.org";
-    passwordInput.value = "password" + Math.floor(Math.random() * 1000000);
-    formElem.submit();
-  </script>
 </div>
