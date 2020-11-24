@@ -16,7 +16,6 @@ if (onSignupPage) {
   let usernameInput = document.querySelector("input[name='username']");
   let emailInput = document.querySelector("input[name='email']");
   let passwordInput = document.querySelector("input[name='password']");
-  let loadingSvg = `<svg width="38" height="38" viewbox="0 0 38 38" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="8.042%" y1="0%" x2="65.682%" y2="23.865%" id="a"><stop stop-color="#5034ca" stop-opacity="0" offset="0%"/><stop stop-color="#5034ca" stop-opacity=".631" offset="63.146%"/><stop stop-color="#5034ca" offset="100%"/></linearGradient></defs><g transform="translate(1 1)" fill="none" fill-rule="evenodd"><path d="M36 18c0-9.94-8.06-18-18-18" stroke="url(#a)" stroke-width="2"><animateTransform attributeName="transform" type="rotate" from="0 18 18" to="360 18 18" dur="0.9s"repeatCount="indefinite"/></path><circle fill="#5034ca" cx="36" cy="18" r="1"><animateTransform attributeName="transform" type="rotate" from="0 18 18" to="360 18 18" dur="0.9s"repeatCount="indefinite"/></circle></g></svg>`;
 
   pageContainer.insertAdjacentHTML("afterbegin", `
 <style>
@@ -40,18 +39,10 @@ if (onSignupPage) {
     text-align: center;
     font-size: 24px;
   }
-  .loading-indicator {
-    margin: 0 auto;
-    width: 30px;
-  }
-  .loading-indicator svg {
-    width: 100%;
-  }
 </style>
 <div class="logging-in-notice">
   <div class="logging-in-notice__box">
     <div class="logging-in-notice__text">Logging in automatically...</div>
-    <div class="loading-indicator">${loadingSvg}</div>
   </div>
 </div>
 `);
