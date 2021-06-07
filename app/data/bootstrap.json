@@ -5,152 +5,116 @@
       "stackHeading": "Logistics",
       "cards": [
         {
-          "cardText": "Confirm the venue",
-          "id": "02hHkAC7NtP0CT"
+          "cardText": "Confirm the venue"
         },
         {
-          "cardText": "Determine the number of chairs needed",
-          "id": "rHJYGjIULc2w6D"
+          "cardText": "Determine the number of chairs needed"
         },
         {
-          "cardText": "Distribute the tickets",
-          "id": "2gGko30wjWw9tn"
+          "cardText": "Distribute the tickets"
         },
         {
-          "cardText": "Finalize Vendors",
-          "id": "wsHOZM2jAFyeTe"
+          "cardText": "Finalize Vendors"
         },
         {
-          "cardText": "Write up the schedule",
-          "id": "HsgjCK5BDcubMw"
+          "cardText": "Write up the schedule"
         }
-      ],
-      "id": "LdDRCOw7ScfbGd"
+      ]
     },
     {
       "stackHeading": "Volunteers",
       "cards": [
         {
-          "cardText": "Reach out to potential sponsors",
-          "id": "VW5qfSvPFBR6ag"
+          "cardText": "Reach out to potential sponsors"
         },
         {
-          "cardText": "Confirm sponsors",
-          "id": "65IKSzDG00b0LI"
+          "cardText": "Confirm sponsors"
         },
         {
-          "cardText": "Recruit people to build the set",
-          "id": "yf9ZFOlrbmDjzw"
+          "cardText": "Recruit people to build the set"
         },
         {
-          "cardText": "Recruit ushers",
-          "id": "P5BmklbQ7ydAsq"
+          "cardText": "Recruit ushers"
         },
         {
-          "cardText": "Recruit ticket takers",
-          "id": "XDUxjzftiydnm1"
+          "cardText": "Recruit ticket takers"
         },
         {
-          "cardText": "Recruit parking attendants",
-          "id": "Og4mxqKNA3H1fc"
+          "cardText": "Recruit parking attendants"
         },
         {
-          "cardText": "Recruit concession and merchandise sales",
-          "id": "5mxMFgM02MW1ro"
+          "cardText": "Recruit concession and merchandise sales"
         },
         {
-          "cardText": "Send volunteer packets out",
-          "id": "VRS7c4C1B2s7Ju"
+          "cardText": "Send volunteer packets out"
         },
         {
-          "cardText": "Assemble “Thank You” swag bags for volunteers",
-          "id": "IA5Kufw18EsXZV"
+          "cardText": "Assemble “Thank You” swag bags for volunteers"
         }
-      ],
-      "id": "E6jdLSvscRBbqy"
+      ]
     },
     {
       "stackHeading": "Performance",
       "cards": [
         {
-          "cardText": "Announce the soloists for the finale",
-          "id": "lG3uMVyUW9JHl8"
+          "cardText": "Announce the soloists for the finale"
         },
         {
-          "cardText": "Schedule additional rehearsals for the soloists",
-          "id": "xsUSaQfjQM2JIT"
+          "cardText": "Schedule additional rehearsals for the soloists"
         },
         {
-          "cardText": "Design Costumes",
-          "id": "PZqQb0GgHYOJcg"
+          "cardText": "Design Costumes"
         },
         {
-          "cardText": "Order costumes 4 weeks before recital",
-          "id": "1HjsJRlASswtjh"
+          "cardText": "Order costumes 4 weeks before recital"
         },
         {
-          "cardText": "Send ill fitting costumes for alterations",
-          "id": "wocXj5eHaHKn0u"
+          "cardText": "Send ill fitting costumes for alterations"
         },
         {
-          "cardText": "Buy the props",
-          "id": "m0ayDdhB3tQ8k5"
+          "cardText": "Buy the props"
         }
-      ],
-      "id": "co6temTwwUDhQe"
+      ]
     },
     {
       "stackHeading": "Photography and Video",
       "cards": [
         {
-          "cardText": "Hire a photographer for studio photos",
-          "id": "KC83X8ZR5teDfm"
+          "cardText": "Hire a photographer for studio photos"
         },
         {
-          "cardText": "Hire a photographer for the performance",
-          "id": "IquUCHO6BIj5Bh"
+          "cardText": "Hire a photographer for the performance"
         },
         {
-          "cardText": "Acquire video camera",
-          "id": "LlTicHwH90V4mw"
+          "cardText": "Acquire video camera"
         },
         {
-          "cardText": "Acquire a tripod",
-          "id": "b61MM9V0534vqO"
+          "cardText": "Acquire a tripod"
         },
         {
-          "cardText": "Hire someone to record the performance",
-          "id": "pniTCvMyyOwTvm"
+          "cardText": "Hire someone to record the performance"
         }
-      ],
-      "id": "TEP701wqAd6tSf"
+      ]
     },
     {
       "stackHeading": "Promotion",
       "cards": [
         {
-          "cardText": "Print flyers",
-          "id": "Q3ZW55nXGfehTQ"
+          "cardText": "Print flyers"
         },
         {
-          "cardText": "Promote the event on Facebook and Instagram",
-          "id": "aeXgielXZiZxiS"
+          "cardText": "Promote the event on Facebook and Instagram"
         },
         {
-          "cardText": "Prepare the programs",
-          "id": "6jVApnrESBXE0N"
+          "cardText": "Prepare the programs"
         },
         {
-          "cardText": "Cross promote other dance studios",
-          "id": "r1LuSgI2L6PXH7"
+          "cardText": "Cross promote other dance studios"
         },
         {
-          "cardText": "Speak to local radio stations",
-          "id": "uqHY3RlhXDsQ7s"
+          "cardText": "Speak to local radio stations"
         }
-      ],
-      "id": "0Ei9ydWoLvpFXQ"
+      ]
     }
-  ],
-  "id": "pTjdkgWaMfiyzh"
+  ]
 }
